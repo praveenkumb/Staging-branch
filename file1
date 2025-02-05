@@ -1,1 +1,16 @@
-apt install apache2 -y
+---
+ - name:Installing Apache server
+   host:Websever
+   become:yes
+   tasks:
+    - name:apache server
+      apt:
+      name:apache2
+      state:present
+
+   - name:Start Apache
+     service:
+      name:apache
+      state:started
+      enabled:true
+
