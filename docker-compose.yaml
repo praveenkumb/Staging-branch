@@ -1,6 +1,6 @@
-version : "3.3
+version : "3.3"
 services :
   web :
-    image :praveen169/demosite:v1
+    image : praveen169/demosite:v1
     ports :
         - "8000:8000"
