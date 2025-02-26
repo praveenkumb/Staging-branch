@@ -1,5 +1,4 @@
-version : "3.3"
-services :
+version : "3.4444ervices :
   web :
     image :praveen169/demosite:v1
     ports :
