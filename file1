@@ -1,3 +1,8 @@
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
 ---
  - name:Installing Apache server
    host:Websever
@@ -14,3 +19,7 @@
       state:started
       enabled:true
 
+<<<<<<< Updated upstream
+=======
+>>>>>>> 3576c87dbc2b107e8e03d12c808ab0fba929b8d4
+>>>>>>> Stashed changes
