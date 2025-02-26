@@ -3,4 +3,4 @@ services :
   web :
     image : praveen169/demosite:v1
     ports :
-        - "80"
+      - "8000:8000"
