@@ -10,3 +10,5 @@ EXPOSE 80
 
 # Start Apache2 in the foreground as the container's main process
 CMD ["apache2ctl", "-D", "FOREGROUND"]
+
+COPY . /var/www/html
